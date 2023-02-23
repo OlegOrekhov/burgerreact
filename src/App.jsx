@@ -1,5 +1,7 @@
-import { Container } from "./components/Container/Container";
-import { Header } from "./components/header/Header";
+import { Catalog } from "./components/Catalog/Catalog";
+import { Footer } from "./components/Footer/Footer";
+import { Header } from "./components/Header/Header";
+import { Navigation } from "./components/Navigation/Navigation";
 
 export const App = () => {
 
@@ -7,12 +9,11 @@ export const App = () => {
     <>
       <Header />
     <main>
-      <nav>
-        <Container maks="leskin" className="navigation__container"/>
-      </nav>
+      <Navigation />
+      <Catalog />
       <section></section>
     </main>
-    <footer></footer>
+    <Footer />
     </>
   )
 };
