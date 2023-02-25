@@ -4,6 +4,7 @@ import style from './Footer.module.css';
 import logo from '../../assets/img/logo.svg'
 
 export const Footer = () => {
+  
   return (
     <footer className={style.footer}>
     <Container>
@@ -46,13 +47,13 @@ export const Footer = () => {
           </div>
         </address>
 
-        <div className={style.development}>
-          <p>© YouMeal, 2022</p>
-          <p>Design: <a href="#">Anastasia Ilina</a></p>
-          <p>Developer: <a href="mailto:maksim.leskin@methed.ru">Maksim Leskin</a></p>
+          <div className={style.development}>
+            <p>© YouMeal, 2022</p>
+            <p>Design: <a href="#">Anastasia Ilina</a></p>
+            <p>Developer: <a href="mailto:maksim.leskin@methed.ru">Maksim Leskin</a></p>
+          </div>
         </div>
-      </div>
-    </Container>
-  </footer>
+      </Container>
+    </footer>
   )
 }
